@@ -1,0 +1,5 @@
+print(' CALCULADORA DE CARRO ALUGADO')
+kr = int(input('Quantos quilômetros você rodou? '))
+d = int(input('Quantos dias você esteve com o carro? '))
+rf = int(60 * d) + float(0.15 * kr)
+print('Você pagará R${:.2f}.'.format(rf))
